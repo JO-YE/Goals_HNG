@@ -3,34 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech_Goals</title>
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <h1>My Tech Goals</h1>
         <p>Welcome to my personal website where I outline my tech goals for the next 2 years.</p>
+        
     </header>
+
     <main>
-       <!-- my skills goal -->
+        <!-- Profile details-->
+         <div>
+            <section id="profile">
+                <img data-testid="slackProfilePicture" src="./profile.jpeg" alt="Slack Profile Picture" width="300" height="300"/>
+                <div data-testid="slackDisplayName"><b>JO-YE</b></div></p>
+                <span data-testid="currentTimeUTC"> <span id="utc-time"></span>
+                <div data-testid="currentDay"><span id="day-of-week"></span>
+                <div data-testid="slackEmail">ainaoluwadamilolaracheal@gmail.com</div></p>
+                
+               
+            </section>
+         </div>
+        <!-- my skills goal -->
         <section id="skills">
             <h2>Skill Development</h2>
-            <ul><article>
-                <h3>Master JavaScript</h3>
-                <p>Achieve a deep understanding of JavaScript, including advanced concepts and ES6+ features.</p>
-            </article>
-            <article>
-                <h3>Become Fluent in ReactJS and React Native</h3>
-                <p>Develop a strong proficiency in both ReactJS for web applications and React Native for mobile applications.</p>
-            </article>
-            <article>
-                <h3>Master CSS Frameworks</h3>
-                <p>Gain expertise in popular CSS frameworks such as Bootstrap and Tailwind CSS.</p>
-            </article></ul>
+            <ul>
+                <article>
+                    <h3>Master JavaScript</h3>
+                    <p>Achieve a deep understanding of JavaScript, including advanced concepts and ES6+ features.</p>
+                </article>
+                <article>
+                    <h3>Become Fluent in ReactJS and React Native</h3>
+                    <p>Develop a strong proficiency in both ReactJS for web applications and React Native for mobile applications.</p>
+                </article>
+                <article>
+                    <h3>Master CSS Frameworks</h3>
+                    <p>Gain expertise in popular CSS frameworks such as Bootstrap and Tailwind CSS.</p>
+                </article>
+            </ul>
         </section>
 
         <!-- my project goal -->
         <section id="projects">
-            
             <h2>Projects and Practical Experience</h2>
             <ul>
                 <article>
@@ -54,29 +70,36 @@
 
         <section id="certifications">
             <h2>Certifications and Courses</h2>
-            <ul><article>
-                <h3>Obtain Certifications in React and React Native</h3>
-                <p>Pursue certifications to validate my skills and knowledge in React and React Native.</p>
-            </article>
-            <article>
-                <h3>Attend Tech Conferences</h3>
-                <p>Participate in tech conferences to network, learn, and stay updated with industry trends.</p>
-            </article></ul>
-            
+            <ul>
+                <article>
+                    <h3>Obtain Certifications in React and React Native</h3>
+                    <p>Pursue certifications to validate my skills and knowledge in React and React Native.</p>
+                </article>
+                <article>
+                    <h3>Attend Tech Conferences</h3>
+                    <p>Participate in tech conferences to network, learn, and stay updated with industry trends.</p>
+                </article>
+            </ul>
         </section>
 
         <section id="career-goals">
             <h2>Career Goals</h2>
-            <ul><article>
-                <h3>Secure a Tech Job as a Frontend Engineer/React Developer</h3>
-                <p>Aim to land a position as a Frontend Engineer or React Developer in a reputable company.</p>
-            </article></ul>
-            
+            <ul>
+                <article>
+                    <h3>Secure a Tech Job as a Frontend Engineer/React Developer</h3>
+                    <p>Aim to land a position as a Frontend Engineer or React Developer in a reputable company.</p>
+                </article>
+            </ul>
         </section>
     </main>
     <footer>
+        <ul>
+            <li><a href="https://hng.tech/learn" target="_blank" data-testid="hngLink">Learn more at HNG</a></li>
+            <li><a href="https://keyword.dog" target="_blank" data-testid="keywordLink">Explore Keyword Dog</a></li>
+            <li><a href="https://scrapeanyweb.site" target="_blank" data-testid="scrapeanywebLink">Visit Scrape Any Web</a></li>
+        </ul>
         <p>&copy; 2024 My Tech Journey</p>
     </footer>
-    <script src="scripts.js"></script> 
+    <script src="index.js"></script>
 </body>
 </html>
